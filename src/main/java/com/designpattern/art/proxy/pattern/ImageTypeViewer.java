@@ -1,7 +1,6 @@
 package com.designpattern.art.proxy.pattern;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 // 图片类型查看器具体类：具体类
 public class ImageTypeViewer {
@@ -45,7 +44,7 @@ public class ImageTypeViewer {
     }
 
     public void getProxyImages() {
-        System.out.println("获取图片名称对应的图片类型");
+        System.out.println("获取图片名称对应的图片类型，并显示对应类型图片");
         Map<String, String> nameTypePair = new HashMap<String, String>();
         nameUrlPair.forEach((key, value) -> {
             String imageType = key.substring(key.lastIndexOf("."));
