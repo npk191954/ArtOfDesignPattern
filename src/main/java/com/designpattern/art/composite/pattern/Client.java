@@ -7,8 +7,8 @@ public class Client {
         window = new Container("窗体");
         pane = new Container("中间面板");
 
-        button = new Button("按钮一");
-        textBox = new TextBox("文本框一");
+        button = new Button("按钮");
+        textBox = new TextBox("文本框");
 
         pane.add(button);
         pane.add(textBox);
