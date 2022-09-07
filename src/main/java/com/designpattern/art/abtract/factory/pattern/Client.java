@@ -19,5 +19,4 @@ public class Client {
         operationController.operationControl();
         interfaceController.interfaceControl();
     }
-
 }
