@@ -1,4 +1,4 @@
-package com.designpattern.art.abstrct.factory.pattern;
+package com.designpattern.art.abtract.factory.pattern;
 
 // 具体Android系统界面控制类：具体界面控制类
 public class AndroidInterfaceController extends AbstractInterfaceController {

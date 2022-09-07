@@ -1,4 +1,4 @@
-package com.designpattern.art.abstrct.factory.pattern;
+package com.designpattern.art.abtract.factory.pattern;
 
 // 具体Ios系统界面控制类：具体产品角色类
 public class IosInterfaceController extends AbstractInterfaceController {

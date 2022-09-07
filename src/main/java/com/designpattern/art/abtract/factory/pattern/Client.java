@@ -1,4 +1,4 @@
-package com.designpattern.art.abstrct.factory.pattern;
+package com.designpattern.art.abtract.factory.pattern;
 
 public class Client {
     public static void main(String[] args) {
